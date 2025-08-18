@@ -1,0 +1,29 @@
+ h2{
+            color: green;
+            text-align: center;
+        }
+        
+div+p{
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333; }  
+            
+p:hover{
+            color: blue;
+            cursor: pointer;
+         }
+
+p::before{
+            content: "Welcome to ABES";
+            font-weight: bold;
+            color: red;
+        }
+p::after{
+            content: " - Enjoy your stay!";
+            font-style: italic;
+            color: gray;
+        }
+p::selection{
+            background-color: yellow;
+            color: black;
+        }
