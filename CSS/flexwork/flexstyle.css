@@ -1,91 +1,17 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-border-color: #c50b0b;
-    border: 1px solid #06d80d;
-    justify-content: space-around;
-}
-.box1{
-    width: 100px;
-    height: 400px;
-    background-color: rgb(8, 124, 162);
-    border: 2px solid rgb(45, 235, 102);
-    padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-       flex-direction: row;
-    
-}  
-.box2{
-    width: 100px;
-    height: 400px;
-    background-color: rgb(190, 90, 18);
-    border: 2px solid rgb(91, 5, 219);
-    padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-    flex-direction:row;} 
-.box3{
-    width: 100px; 
-    height: 400px;
-    background-color: rgb(8, 124, 162); 
-    border: 2px solid rgb(205, 212, 14);
-    padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-    flex-direction: row;
-}
-.box4{
-    width: 100px;
-    height: 400px;
-    background-color: rgb(8, 124, 162);
-    border: 2px solid rgb(2, 70, 22);
-    padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-    flex-direction: row;
-/* }
-.box5{
-    width: 100px;
-    height: 400px;
-    background-color: rgb(8, 124, 162);
-    border: 2px solid rgb(2, 70, 22);
-    padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-    flex-direction: row;
-}   
-.box6{
-    width: 100px;
-    height: 400px;
-    background-color: rgb(8, 124, 162);
-    border: 2px solid rgb(2, 70, 22);
-    padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-    flex-direction: row;
-}           
-.box7{
-    width: 100px;
-    height: 400px;
-    background-color: rgb(8, 124, 162);
-    border: 2px solid rgb(2, 70, 22);
-    padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-    flex-direction: row;
-}
-.box8{
-    width: 100px;
-    height: 400px;
-    background-color: rgb(8, 124, 162);
-    border: 2px solid rgb(2, 70, 22);
-    padding: 20px;
-    margin: 10px;
-    box-sizing: border-box;
-    flex-direction: row;
-} */
+  .flex-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+        .flex-item {
+            background: #4CAF50;
+            color: white;
+            padding: 40px;
+            margin: 10px;
+            font-size: 1.5rem;
+            border-radius: 8px;
+            flex: 1 1 200px;
+            text-align: center;
+        }
