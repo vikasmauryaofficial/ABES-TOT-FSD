@@ -9,4 +9,4 @@ const employee={
         pl3: 'python'   
     }   
 }
-console.log(employee);
+console.log(employee.planguage.pl1);
