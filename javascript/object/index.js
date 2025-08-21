@@ -3,10 +3,19 @@ const employee={
     eage: 30,
     edesignation: 'developer',
     esalary: 50000,  
-    planguage:{
+    planguage: {
         pl1: 'java',
         pl2: 'javascript',
-        pl3: 'python'   
-    }   
+        pl3: 'python'
+    },
+    databases: {
+        database1: 'mysql',
+        database2: 'mongodb',
+        database3: 'postgresql'
+    },framework:{
+        framework1: 'spring',
+        framework2: 'react',
+        framework3: 'angular'
+    }
 }
-console.log(employee.planguage.pl1);
+console.log(employee);
